@@ -1,0 +1,193 @@
+{
+  "caption": "01_aufgabe_I_Lösung",
+  "gates": [
+    {
+      "x": "480",
+      "y": "360",
+      "direction": "0",
+      "inputCount": "2",
+      "outputCount": "1",
+      "logicFunction": "\"and\"",
+      "outputsInv": "[false]",
+      "inputsInv": "[true,false]"
+    },
+    {
+      "x": "480",
+      "y": "540",
+      "direction": "0",
+      "inputCount": "2",
+      "outputCount": "1",
+      "logicFunction": "\"and\"",
+      "outputsInv": "[false]",
+      "inputsInv": "[false,true]"
+    },
+    {
+      "x": "480",
+      "y": "720",
+      "direction": "0",
+      "inputCount": "2",
+      "outputCount": "1",
+      "logicFunction": "\"and\"",
+      "outputsInv": "[false]",
+      "inputsInv": "[false,false]"
+    },
+    {
+      "x": "780",
+      "y": "510",
+      "direction": "0",
+      "inputCount": "3",
+      "outputCount": "1",
+      "logicFunction": "\"or\"",
+      "outputsInv": "[false]",
+      "inputsInv": "[false,false,false]"
+    }
+  ],
+  "outputs": [
+    {
+      "x": "1020",
+      "y": "540",
+      "colr": "0"
+    }
+  ],
+  "inputs": [
+    {
+      "x": "105",
+      "y": "225",
+      "framecount": "-1",
+      "clock": "false",
+      "pos": 0
+    },
+    {
+      "x": "255",
+      "y": "225",
+      "framecount": "-1",
+      "clock": "false",
+      "pos": 1
+    }
+  ],
+  "wires": [
+    {
+      "x1": "120",
+      "y1": "240",
+      "y2": "780"
+    },
+    {
+      "x1": "270",
+      "y1": "240",
+      "y2": "750"
+    },
+    {
+      "x1": "120",
+      "y1": "390",
+      "x2": "510"
+    },
+    {
+      "x1": "270",
+      "y1": "420",
+      "x2": "480"
+    },
+    {
+      "x1": "120",
+      "y1": "570",
+      "x2": "480"
+    },
+    {
+      "x1": "270",
+      "y1": "600",
+      "x2": "510"
+    },
+    {
+      "x1": "270",
+      "y1": "750",
+      "x2": "510"
+    },
+    {
+      "x1": "120",
+      "y1": "780",
+      "x2": "510"
+    },
+    {
+      "x1": "540",
+      "y1": "390",
+      "x2": "690"
+    },
+    {
+      "x1": "690",
+      "y1": "390",
+      "y2": "540"
+    },
+    {
+      "x1": "690",
+      "y1": "540",
+      "x2": "780"
+    },
+    {
+      "x1": "540",
+      "y1": "570",
+      "x2": "780"
+    },
+    {
+      "x1": "540",
+      "y1": "750",
+      "x2": "690"
+    },
+    {
+      "x1": "690",
+      "y1": "600",
+      "y2": "750"
+    },
+    {
+      "x1": "690",
+      "y1": "600",
+      "x2": "780"
+    },
+    {
+      "x1": "840",
+      "y1": "540",
+      "x2": "1020"
+    }
+  ],
+  "busses": [],
+  "conpoints": [
+    {
+      "x": "120",
+      "y": "390"
+    },
+    {
+      "x": "270",
+      "y": "420"
+    },
+    {
+      "x": "120",
+      "y": "570"
+    },
+    {
+      "x": "270",
+      "y": "600"
+    }
+  ],
+  "diodes": [],
+  "customs": [],
+  "labels": [
+    {
+      "x": "90",
+      "y": "90",
+      "txt": "F=(¬A∧B)∨(A∧¬B)∨(A∧B)"
+    },
+    {
+      "x": "30",
+      "y": "240",
+      "txt": "A\n"
+    },
+    {
+      "x": "330",
+      "y": "240",
+      "txt": "B"
+    }
+  ],
+  "segDisplays": [],
+  "busWrappers": [],
+  "busUnwrappers": [],
+  "busInputs": [],
+  "decoders": []
+}
