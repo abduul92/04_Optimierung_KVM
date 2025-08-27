@@ -1,0 +1,23 @@
+{
+  "caption": "02_aufgabe_II",
+  "gates": [],
+  "outputs": [],
+  "inputs": [],
+  "wires": [],
+  "busses": [],
+  "conpoints": [],
+  "diodes": [],
+  "customs": [],
+  "labels": [
+    {
+      "x": "90",
+      "y": "90",
+      "txt": "G = (¬A∧¬B∧C) ∨ (¬A∧B∧C) ∨ (A∧¬B∧¬C) ∨ (A∧B∧¬C)\n"
+    }
+  ],
+  "segDisplays": [],
+  "busWrappers": [],
+  "busUnwrappers": [],
+  "busInputs": [],
+  "decoders": []
+}

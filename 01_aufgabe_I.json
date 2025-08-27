@@ -1,0 +1,23 @@
+{
+  "caption": "01_aufgabe_I",
+  "gates": [],
+  "outputs": [],
+  "inputs": [],
+  "wires": [],
+  "busses": [],
+  "conpoints": [],
+  "diodes": [],
+  "customs": [],
+  "labels": [
+    {
+      "x": "90",
+      "y": "90",
+      "txt": "F=(¬A∧B)∨(A∧¬B)∨(A∧B)"
+    }
+  ],
+  "segDisplays": [],
+  "busWrappers": [],
+  "busUnwrappers": [],
+  "busInputs": [],
+  "decoders": []
+}

@@ -1,0 +1,23 @@
+{
+  "caption": "04_aufgabe_IV",
+  "gates": [],
+  "outputs": [],
+  "inputs": [],
+  "wires": [],
+  "busses": [],
+  "conpoints": [],
+  "diodes": [],
+  "customs": [],
+  "labels": [
+    {
+      "x": "90",
+      "y": "90",
+      "txt": "J=(¬B∧¬D)∨(B∧D)\n"
+    }
+  ],
+  "segDisplays": [],
+  "busWrappers": [],
+  "busUnwrappers": [],
+  "busInputs": [],
+  "decoders": []
+}

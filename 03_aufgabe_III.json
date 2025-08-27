@@ -1,0 +1,23 @@
+{
+  "caption": "03_aufgabe_III",
+  "gates": [],
+  "outputs": [],
+  "inputs": [],
+  "wires": [],
+  "busses": [],
+  "conpoints": [],
+  "diodes": [],
+  "customs": [],
+  "labels": [
+    {
+      "x": "90",
+      "y": "90",
+      "txt": "H = A'BC'+A'CD+ABC+AC'D\n"
+    }
+  ],
+  "segDisplays": [],
+  "busWrappers": [],
+  "busUnwrappers": [],
+  "busInputs": [],
+  "decoders": []
+}
