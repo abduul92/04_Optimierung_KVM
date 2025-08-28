@@ -1,0 +1,163 @@
+{
+  "caption": "05_aufgabe_V",
+  "gates": [
+    {
+      "x": "420",
+      "y": "300",
+      "direction": "0",
+      "inputCount": "2",
+      "outputCount": "1",
+      "logicFunction": "\"and\"",
+      "outputsInv": "[false]",
+      "inputsInv": "[true,false]"
+    },
+    {
+      "x": "420",
+      "y": "480",
+      "direction": "0",
+      "inputCount": "2",
+      "outputCount": "1",
+      "logicFunction": "\"and\"",
+      "outputsInv": "[false]",
+      "inputsInv": "[false,false]"
+    },
+    {
+      "x": "600",
+      "y": "300",
+      "direction": "0",
+      "inputCount": "2",
+      "outputCount": "1",
+      "logicFunction": "\"or\"",
+      "outputsInv": "[false]",
+      "inputsInv": "[false,false]"
+    }
+  ],
+  "outputs": [
+    {
+      "x": "720",
+      "y": "330",
+      "colr": "0"
+    }
+  ],
+  "inputs": [
+    {
+      "x": "75",
+      "y": "195",
+      "framecount": "-1",
+      "clock": "false",
+      "pos": 0
+    },
+    {
+      "x": "195",
+      "y": "195",
+      "framecount": "-1",
+      "clock": "false",
+      "pos": 1
+    },
+    {
+      "x": "315",
+      "y": "195",
+      "framecount": "-1",
+      "clock": "false",
+      "pos": 2
+    }
+  ],
+  "wires": [
+    {
+      "x1": "90",
+      "y1": "210",
+      "y2": "510"
+    },
+    {
+      "x1": "210",
+      "y1": "210",
+      "y2": "360"
+    },
+    {
+      "x1": "90",
+      "y1": "330",
+      "x2": "420"
+    },
+    {
+      "x1": "210",
+      "y1": "360",
+      "x2": "420"
+    },
+    {
+      "x1": "90",
+      "y1": "510",
+      "x2": "420"
+    },
+    {
+      "x1": "330",
+      "y1": "540",
+      "x2": "420"
+    },
+    {
+      "x1": "330",
+      "y1": "210",
+      "y2": "540"
+    },
+    {
+      "x1": "480",
+      "y1": "330",
+      "x2": "600"
+    },
+    {
+      "x1": "480",
+      "y1": "510",
+      "x2": "540"
+    },
+    {
+      "x1": "540",
+      "y1": "360",
+      "y2": "510"
+    },
+    {
+      "x1": "540",
+      "y1": "360",
+      "x2": "600"
+    },
+    {
+      "x1": "660",
+      "y1": "330",
+      "x2": "720"
+    }
+  ],
+  "busses": [],
+  "conpoints": [
+    {
+      "x": "90",
+      "y": "330"
+    }
+  ],
+  "diodes": [],
+  "customs": [],
+  "labels": [
+    {
+      "x": "90",
+      "y": "90",
+      "txt": "K=(¬B∧C)∨(B∧D)\n"
+    },
+    {
+      "x": "90",
+      "y": "150",
+      "txt": "B"
+    },
+    {
+      "x": "210",
+      "y": "150",
+      "txt": "C"
+    },
+    {
+      "x": "330",
+      "y": "150",
+      "txt": "D"
+    }
+  ],
+  "segDisplays": [],
+  "busWrappers": [],
+  "busUnwrappers": [],
+  "busInputs": [],
+  "decoders": []
+}
